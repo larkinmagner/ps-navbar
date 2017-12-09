@@ -1,20 +1,21 @@
 * {
   font-family: "lato", "Helvetica", Sans-Serif;
-  Font-size: 16px
+  font-size: 16px
   font-weight normal;
   color: #212529;
   text-align: left;
   box-sizing: border-box;
-  background-color: #fff;
 }
 
 a {
   text-decoration: none;
 }
+
 .ps-nav-brand {
   font-size: 1.5rem;
   margin: 1rem 0;
 }
+
 .ps-navbar {
   display: flex;
   justify-content: space-between;
@@ -24,6 +25,7 @@ a {
 
 .ps-navbar-nav {
   display: flex;
+  width: 15rem;
+  justify-content: space-between;
   list-style: none;
-  
 }
